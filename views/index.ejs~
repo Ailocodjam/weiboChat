@@ -1,0 +1,141 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>demo–微薄聊天窗口</title>
+    
+	 <link rel="stylesheet" href="/stylesheets/test7.css">
+<!--	 <script type="text/javascript" src="/javascripts/jquery-1.7.1.min.js"></script> -->
+	 <script type="text/javascript" src="/javascripts/test7.js"></script>
+</head>
+<body>
+	 <div id="open">
+	 	<p class="show" id="show">聊天</p>
+	 </div>
+	 
+	 <div id="list">
+	 	<div class="title">
+			<p>在线</p>
+	 	</div>	
+	 	<ul id="list_ul">
+		<!--	<li>
+				<div class="list_li"><img src="images/jm.jpg"/></div>
+			</li>	 	
+			<li>
+				<div class="list_li"><img src="images/jm.jpg"/></div>
+			</li>	 
+		-->	
+	 	</ul>
+	 	<div class="toMore">
+			<a href="#"><span>更多</span></a>	 	
+	 	</div>
+	 </div>
+	 
+	 <div class="webim_now" id="webIm">
+			<div class="top">
+				<div class="top_l">
+					<p>
+						<a href="#" class="pic">
+							<img src="#" id="list_src"/>				
+						</a>					
+						<span>
+							<a href="#" id="list_title">吴健敏</a>
+						</span>
+					</p>
+				</div>				
+				<div class="top_r">
+					<a href="#" title="设置" class="setting" id="setting"></a>
+					<a href="#" title="最小化" class="min" id="min"></a>
+					<a href="#" title="关闭" class="close" id="close"></a>
+				</div>		
+				<div class="top_setting" id="set_ul">
+					<ul>
+						<li class="active">自动收起</li>
+						<li>保持展开</li>
+					</ul>
+				</div>		
+			</div>	 
+			
+			<div class="send_list_l" id="send_list">
+					<a href="#" class="go_top" id="go_top"></a> 
+					<div class="content">
+						<ul class="content_ul" id="content_ul">
+					<!--						
+							<li title="">
+								<div class="tishi active">吕耿敏</div>											
+							</li>										
+							<li>
+								<div class="tishi">魏文华</div>	
+							</li>
+							<li>
+								<div class="tishi">林强</div>		
+							</li>					
+					-->					
+						</ul>
+					</div>
+					<a href="#" class="go_bot" id="go_bot"></a> 
+			</div>
+			
+			<div class="send_list_r">
+				<div class="send_up" id="send_up">
+					<div class="scroll" id="scroll"></div>
+					<div id="content">
+				 <!--		
+						<div class="content_l">
+							<div class="time">2013/04/04</div>
+							<div class="speak">			
+								<p>吃饭没？</p>
+							</div>
+						</div>
+						<div class="content_r">
+							<div class="time">2013/04/04</div>
+							<div class="speak">			
+								<p>还没呢</p>
+							</div>
+						</div>
+				-->		
+				<!--	<div class="speak_arr"></div>		-->	
+					</div>
+				</div>
+				<div class="send">
+					<div class="send_bar">
+						<div class="send_ico">
+							<a href="#" class="face" title="发送表情"></a>
+							<a href="#" class="img" title="发送图片"></a>
+							<a href="#" class="att" title="上传附近"></a>
+							<a href="#" class="copy" title="截图"></a>
+						</div>
+						<div class="send_show">
+							<a href="#">聊天记录</a>
+						</div>
+						<!--查看更多-->
+					</div>
+					<div class="send_go">
+						<textarea class="send_write" id="text"></textarea>
+					</div>
+					<div class="send_btn">
+						<div class="send_btn_l">
+							<p><a href="#">微薄桌面</a>:不漏看TA的微薄</p>						
+						</div>
+						<div class="send_btn_r">
+							<p class="num" id="num">140</p>
+							<div class="btn">
+								<a href="#" id="btn"></a>
+								<div class="btn_list" id="btn_list">
+									<ul style="display:none">
+										<li class="active">按Enter键发送</li>
+                              <li>按Ctrl+Enter键发送</li>				
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>				
+				
+			</div>
+						
+	 
+	 </div>
+</body>
+</html>
+

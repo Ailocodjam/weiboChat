@@ -1,0 +1,11 @@
+{
+	list:[
+		 {name:"jm1",src:"jm.jpg",type:"yes",title:"jm1"},
+       {name:"xj1",src:"xj.jpg",type:"yes",title:"xj1"},
+       {name:"yl1",src:"yl.jpg",type:"no",title:"yl1"},
+       {name:"jm1",src:"jm.jpg",type:"yes",title:"jm1"},
+       {name:"xj1",src:"xj.jpg",type:"yes",title:"xj1"},
+       {name:"yl1",src:"yl.jpg",type:"no ",title:"yl1"},
+       {name:"jm1",src:"jm.jpg",type:"yes",title:"jm1"}
+	]
+}
